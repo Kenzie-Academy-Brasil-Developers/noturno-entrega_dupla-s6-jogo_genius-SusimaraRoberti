@@ -40,6 +40,10 @@ button {
   width: 210px;
 }
 
+button:hover {
+  background-color: green;
+}
+
 .jogo {
   display: flex;
   align-items: center;

@@ -93,3 +93,28 @@ button:hover {
 .jogo-botãoAzul:hover {
   background-color: rgb(0, 0, 116);
 }
+
+.acertos{
+  padding: 10px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  font-style: oblique;
+  font-weight: 600;
+  border: transparent;
+  width: 210px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.vez{
+  padding: 10px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  font-style: oblique;
+  font-weight: 600;
+  border: transparent;
+  width: 210px;
+  text-align: center;
+}

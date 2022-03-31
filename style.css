@@ -35,13 +35,23 @@ button {
   );
   font-size: 18px;
   font-style: oblique;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 600;
   border: transparent;
   width: 210px;
+  cursor: pointer;
 }
 
-button:hover {
-  background-color: green;
+.vez {
+  padding: 10px 0 10px 0;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  font-style: oblique;
+  font-weight: 600;
+  border: transparent;
+  width: 210px;
+  text-align: center;
 }
 
 .jogo {
@@ -50,6 +60,7 @@ button:hover {
   justify-content: space-around;
   padding: 20px;
   margin: 5px;
+  cursor: pointer;
 }
 
 .jogo-botãoVerde {
@@ -57,59 +68,46 @@ button:hover {
   height: 170px;
   margin: 5px;
   border-top-left-radius: 100%;
-  background-color: green;
+  background-color: rgb(1, 49, 7);
 }
 .jogo-botãoVermelho {
   width: 200px;
   height: 170px;
   margin: 5px;
   border-top-right-radius: 100%;
-  background-color: red;
+  background-color: rgb(126, 1, 1);
 }
 .jogo-botãoAmarelo {
   width: 200px;
   height: 170px;
   margin: 5px;
   border-bottom-left-radius: 100%;
-  background-color: yellow;
+  background-color: rgb(145, 135, 3);
 }
 .jogo-botãoAzul {
   width: 200px;
   height: 170px;
   margin: 5px;
   border-bottom-right-radius: 100%;
-  background-color: blue;
-}
-
-.jogo-botãoVerde:hover {
-  background-color: rgb(1, 58, 1);
-}
-.jogo-botãoVermelho:hover {
-  background-color: rgb(131, 0, 0);
-}
-.jogo-botãoAmarelo:hover {
-  background-color: rgb(150, 150, 0);
-}
-.jogo-botãoAzul:hover {
-  background-color: rgb(0, 0, 116);
+  background-color: rgb(0, 2, 116);
 }
 
 .ativoVerde {
-  background-color: rgb(2, 190, 2);
+  background-color: rgb(5, 211, 5);
 }
 .ativoVermelho {
-  background-color: rgb(255, 74, 74);
+  background-color: rgb(247, 3, 16);
 }
 .ativoAmarelo {
-  background-color: rgb(134, 134, 3);
+  background-color: rgb(252, 252, 1);
 }
 .ativoAzul {
-  background-color: rgb(27, 27, 180);
+  background-color: rgb(0, 68, 255);
 }
 
 .acertos {
-  padding: 10px;
-  background-color: red;
+  padding: 10px 0 10px 0;
+  background-color: black;
   color: white;
   font-size: 18px;
   font-style: oblique;
@@ -118,16 +116,4 @@ button:hover {
   width: 210px;
   text-align: center;
   font-variant-numeric: tabular-nums;
-}
-
-.vez {
-  padding: 10px;
-  background-color: red;
-  color: white;
-  font-size: 18px;
-  font-style: oblique;
-  font-weight: 600;
-  border: transparent;
-  width: 210px;
-  text-align: center;
 }

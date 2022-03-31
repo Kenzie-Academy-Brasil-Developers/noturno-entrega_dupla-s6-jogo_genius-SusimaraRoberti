@@ -23,6 +23,7 @@ function init() {
   jogo.addEventListener("click", clickEvent);
 }
 
+
 function proximo() {
   let mensagem = document.getElementById("vez");
   mensagem.innerHTML = "Grave a sequência!";
@@ -108,7 +109,7 @@ function criaJogo() {
   container.appendChild(divVerdeAmarelo);
   container.appendChild(divVermelhoAzul);
   body.appendChild(pAcertos);
-
+  
   button.innerText = "INICIAR JOGO";
   button.setAttribute("id", "inicio");
   container.setAttribute("class", "jogo");
@@ -181,3 +182,4 @@ function clickEvent(event) {
 
 criaJogo();
 startGame();
+
